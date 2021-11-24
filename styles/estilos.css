@@ -34,7 +34,7 @@ a{
 }
 
 .fondoAmarillo{
-    background-color:yellow;
+    background-color: yellow;
 }
 
 .textoGrandeNegrita{
@@ -44,3 +44,34 @@ a{
     font-stretch:narrower;
     font-family: Arial;
 }
+
+.smallImage{
+    height: 100px;
+}
+
+.contenedorConMargen{
+    margin: 50px 50px 50px 50px;
+    border: 100px solid red;
+    paddin: 100px;
+}
+
+.contenedorDivs{
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+}
+
+.contenedorDivFlex{
+    border: 2px solid green;
+    display: flex;
+    flex-direction:column reverse;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.divTest{
+    border: 1px solid red;
+}
+
