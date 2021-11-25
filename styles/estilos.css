@@ -14,6 +14,8 @@ body{
     background-color: rgb(237,237,238);
     border-bottom: 1px solid gray;
     box-shadow: 1px 1px gray;
+    margin: 0px;
+    padding: 15px;
 }
 
 .navbar > li{
@@ -90,4 +92,23 @@ body{
 
 .iconoBusqueda:hover{
     color: blue;
+}
+
+.contenedorImagen{
+    height:300px;
+    width: 400px;
+    display: flex;
+}
+
+.breedCardContainer{
+    display: flex;
+}
+
+.breedCard{
+    margin: 10px;
+}
+
+.contenedorImagen > img{
+    object-fit: cover;
+    width: 100%;
 }
